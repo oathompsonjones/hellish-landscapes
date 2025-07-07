@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "id": "hellishlandscapes",
+  "version": "${version}",
+  "name": "Hellish Landscapes",
+  "description": "Adds several new biomes to the Nether.",
+  "authors": [
+    "oathompsonjones",
+    "Random Nautilus"
+  ],
+  "contact": {
+    "homepage": "https://github.com/oathompsonjones/hellish-landscapes",
+    "sources": "https://github.com/oathompsonjones/hellish-landscapes"
+  },
+  "license": "MIT",
+  "icon": "assets/hellishlandscapes/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "uk.co.oathompsonjones.HellishLandscapes"
+    ],
+    "client": [
+      "uk.co.oathompsonjones.HellishLandscapesClient"
+    ],
+    "fabric-datagen": [
+      "uk.co.oathompsonjones.HellishLandscapesDataGenerator"
+    ]
+  },
+  "mixins": [
+    "hellishlandscapes.mixins.json"
+  ],
+  "client": [
+    "hellishlandscapes.client.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.15.11",
+    "minecraft": "~1.20.1",
+    "java": ">=17",
+    "fabric-api": "*"
+  },
+  "suggests": {
+  }
+}
