@@ -1,4 +1,4 @@
-![RYSO Title Image](./src/main/resources/assets/hellishlandscapes/title.png)
+![Hellish Landscapes Title Image](./src/main/resources/assets/hellishlandscapes/title.png)
 
 # Welcome to Hellish Landscapes!
 
